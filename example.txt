@@ -1,0 +1,567 @@
+phase_countdowns: { phase: 'timeout_t', phase_ends_in: '64.9' },
+
+
+            data: {
+              activity: "menu",
+              provider: {
+                name: 'Counter-Strike: Global Offensive',
+                appid: 730,
+                version: 13804,
+                steamid: '76561198115631879',
+                timestamp: 1633185666
+              },
+              map: {
+                mode: 'competitive',
+                name: 'de_mirage',
+                phase: 'live',
+                round: 5,
+                team_ct: {
+                  score: 0,
+                  consecutive_round_losses: 6,
+                  timeouts_remaining: 1,
+                  matches_won_this_series: 0
+                },
+                team_t: {
+                  score: 5,
+                  consecutive_round_losses: 0,
+                  timeouts_remaining: 1,
+                  matches_won_this_series: 0
+                },
+                num_matches_to_win_series: 0,
+                current_spectators: 3,
+                souvenirs_total: 0,
+                round_wins: {
+                  '1': 't_win_elimination',
+                  '2': 't_win_elimination',
+                  '3': 't_win_elimination',
+                  '4': 't_win_bomb',
+                  '5': 't_win_elimination'
+                }
+              },
+              round: { 
+                phase: 'live',
+                win_team: 'T', 
+              },
+              player: {
+                steamid: '76561198849585437',
+                clan: 'lowtabmylife',
+                name: 'skyl1ne',
+                observer_slot: 4,
+                team: 'CT',
+                activity: 'textinput',
+                state: {
+                  health: 100,
+                  armor: 0,
+                  helmet: false,
+                  flashed: 0,
+                  smoked: 0,
+                  burning: 0,
+                  money: 6450,
+                  round_kills: 0,
+                  round_killhs: 0,
+                  round_totaldmg: 0,
+                  equip_value: 200
+                },
+                spectarget: '76561198849585437',
+                position: '-1902.00, -1976.00, -273.99',
+                forward: '0.95, 0.32, -0.03'
+              },
+              allplayers: {
+                '76561197993415113': {
+                  name: 'asdf',
+                  observer_slot: 6,
+                  team: 'T',
+                  state: {
+                    health: 0,
+                    armor: 0,
+                    helmet: false,
+                    flashed: 0,
+                    burning: 0,
+                    money: 2650,
+                    round_kills: 0,
+                    round_killhs: 0,
+                    round_totaldmg: 0,
+                    equip_value: 800
+                  },
+                  match_stats: { kills: 0, assists: 0, deaths: 3, mvps: 0, score: 0 },
+                  weapons: {
+                    weapon_0: {
+                      name: 'weapon_knife_t',
+                      paintkit: 'default',
+                      type: 'Knife',
+                      state: 'holstered'
+                    },
+                    weapon_1: {
+                      name: 'weapon_glock',
+                      paintkit: 'cu_glock18_corroden',
+                      type: 'Pistol',
+                      ammo_clip: 20,
+                      ammo_clip_max: 20,
+                      ammo_reserve: 120,
+                      state: 'holstered'
+                    },
+                    weapon_2: {
+                      name: 'weapon_ak47',
+                      paintkit: 'cu_ak47_aztec',
+                      type: 'Rifle',
+                      ammo_clip: 13,
+                      ammo_clip_max: 30,
+                      ammo_reserve: 90,
+                      state: 'active'
+                    }
+                  },
+                  position: '649.46, 749.75, 0.74',
+                  forward: '0.81, 0.58, -0.03'
+                },
+                '76561197989463828': {
+                  name: 'Jocke2k',
+                  observer_slot: 7,
+                  team: 'T',
+                  state: {
+                    health: 14,
+                    armor: 0,
+                    helmet: false,
+                    flashed: 0,
+                    burning: 255,
+                    money: 1750,
+                    round_kills: 0,
+                    round_killhs: 0,
+                    round_totaldmg: 0,
+                    equip_value: 700
+                  },
+                  match_stats: { kills: 0, assists: 0, deaths: 2, mvps: 0, score: 0 },
+                  weapons: {
+                    weapon_0: {
+                      name: 'weapon_knife_t',
+                      paintkit: 'default',
+                      type: 'Knife',
+                      state: 'holstered'
+                    },
+                    weapon_1: {
+                      name: 'weapon_glock',
+                      paintkit: 'cu_glock18_corroden',
+                      type: 'Pistol',
+                      ammo_clip: 20,
+                      ammo_clip_max: 20,
+                      ammo_reserve: 120,
+                      state: 'holstered'
+                    },
+                    weapon_2: {
+                      name: 'weapon_ak47',
+                      paintkit: 'cu_ak47_aztec',
+                      type: 'Rifle',
+                      ammo_clip: 13,
+                      ammo_clip_max: 30,
+                      ammo_reserve: 90,
+                      state: 'active'
+                    }
+                  },
+                  position: '667.70, 468.18, 50.71',
+                  forward: '0.24, -0.96, -0.11'
+                },
+                '76561198115631878': {
+                  name: 'Test',
+                  observer_slot: 1,
+                  team: 'CT',
+                  state: {
+                    health: 92,
+                    armor: 100,
+                    helmet: true,
+                    flashed: 0,
+                    burning: 255,
+                    money: 3000,
+                    round_kills: 0,
+                    round_killhs: 0,
+                    round_totaldmg: 0,
+                    equip_value: 3850
+                  },
+                  match_stats: { kills: 3, assists: 1, deaths: 1, mvps: 1, score: 7 },
+                  weapons: {
+                    weapon_0: {
+                      name: 'weapon_knife_t',
+                      paintkit: 'default',
+                      type: 'Knife',
+                      state: 'holstered'
+                    },
+                    weapon_1: {
+                      name: 'weapon_glock',
+                      paintkit: 'cu_glock18_corroden',
+                      type: 'Pistol',
+                      ammo_clip: 20,
+                      ammo_clip_max: 20,
+                      ammo_reserve: 120,
+                      state: 'holstered'
+                    },
+                    weapon_2: {
+                      name: 'weapon_ak47',
+                      paintkit: 'cu_ak47_aztec',
+                      type: 'Rifle',
+                      ammo_clip: 13,
+                      ammo_clip_max: 30,
+                      ammo_reserve: 90,
+                      state: 'active'
+                    }
+                  },
+                  position: '-1909.43, 1915.80, -0.78',
+                  forward: '-0.19, -0.98, -0.02'
+                },
+                '76561198091716004': {
+                  clan: 'h4ckstrboys',
+                  name: 'smt',
+                  observer_slot: 2,
+                  team: 'CT',
+                  state: {
+                    health: 100,
+                    armor: 94,
+                    helmet: true,
+                    defusekit: true,
+                    flashed: 0,
+                    burning: 0,
+                    money: 5050,
+                    round_kills: 0,
+                    round_killhs: 0,
+                    round_totaldmg: 76,
+                    equip_value: 4350
+                  },
+                  match_stats: { kills: 2, assists: 0, deaths: 0, mvps: 1, score: 4 },
+                  weapons: {
+                    weapon_0: {
+                      name: 'weapon_knife_t',
+                      paintkit: 'default',
+                      type: 'Knife',
+                      state: 'holstered'
+                    },
+                    weapon_1: {
+                      name: 'weapon_glock',
+                      paintkit: 'cu_glock18_corroden',
+                      type: 'Pistol',
+                      ammo_clip: 20,
+                      ammo_clip_max: 20,
+                      ammo_reserve: 120,
+                      state: 'holstered'
+                    },
+                    weapon_2: {
+                      name: 'weapon_ak47',
+                      paintkit: 'cu_ak47_aztec',
+                      type: 'Rifle',
+                      ammo_clip: 13,
+                      ammo_clip_max: 30,
+                      ammo_reserve: 90,
+                      state: 'active'
+                    }
+                  },
+                  position: '1334.55, 1148.11, -4.39',
+                  forward: '-0.90, -0.43, -0.02'
+                },
+                '76561198041554776': {
+                  name: 'berny;.',
+                  observer_slot: 3,
+                  team: 'CT',
+                  state: {
+                    health: 100,
+                    armor: 100,
+                    helmet: true,
+                    flashed: 0,
+                    burning: 0,
+                    money: 5100,
+                    round_kills: 1,
+                    round_killhs: 0,
+                    round_totaldmg: 125,
+                    equip_value: 4800
+                  },
+                  match_stats: { kills: 2, assists: 0, deaths: 0, mvps: 0, score: 4 },
+                  weapons: {
+                    weapon_0: {
+                      name: 'weapon_knife_t',
+                      paintkit: 'default',
+                      type: 'Knife',
+                      state: 'holstered'
+                    },
+                    weapon_1: {
+                      name: 'weapon_glock',
+                      paintkit: 'cu_glock18_corroden',
+                      type: 'Pistol',
+                      ammo_clip: 20,
+                      ammo_clip_max: 20,
+                      ammo_reserve: 120,
+                      state: 'holstered'
+                    },
+                    weapon_2: {
+                      name: 'weapon_ak47',
+                      paintkit: 'cu_ak47_aztec',
+                      type: 'Rifle',
+                      ammo_clip: 13,
+                      ammo_clip_max: 30,
+                      ammo_reserve: 90,
+                      state: 'active'
+                    },
+                    weapon_3: {
+                      name: "decoy",
+                      paintkit: "default",
+                      type: "Grenade",
+                      ammo_reserve: 1,
+                      state: "holstered"
+                    },
+                    weapon_4: {
+                      name: "decoy",
+                      paintkit: "default",
+                      type: "Grenade",
+                      ammo_reserve: 1,
+                      state: "holstered"
+                    },
+                    weapon_5: {
+                      name: "decoy",
+                      paintkit: "default",
+                      type: "Grenade",
+                      ammo_reserve: 1,
+                      state: "holstered"
+                    },
+            
+                  },
+                  position: '1474.46, 1413.93, -9.45',
+                  forward: '-0.85, -0.53, -0.01'
+                },
+                '76561197976648426': {
+                  clan: 'DADDELK1NGZ',
+                  name: 'Gr1ng9',
+                  observer_slot: 4,
+                  team: 'CT',
+                  state: {
+                    health: 100,
+                    armor: 100,
+                    helmet: true,
+                    flashed: 0,
+                    burning: 0,
+                    money: 2150,
+                    round_kills: 0,
+                    round_killhs: 0,
+                    round_totaldmg: 0,
+                    equip_value: 6200
+                  },
+                  match_stats: { kills: 2, assists: 0, deaths: 0, mvps: 0, score: 4 },
+                  weapons: {
+                    weapon_0: {
+                      name: 'weapon_knife_t',
+                      paintkit: 'default',
+                      type: 'Knife',
+                      state: 'holstered'
+                    },
+                    weapon_1: {
+                      name: 'weapon_glock',
+                      paintkit: 'cu_glock18_corroden',
+                      type: 'Pistol',
+                      ammo_clip: 20,
+                      ammo_clip_max: 20,
+                      ammo_reserve: 120,
+                      state: 'holstered'
+                    },
+                    weapon_2: {
+                      name: 'weapon_ak47',
+                      paintkit: 'cu_ak47_aztec',
+                      type: 'Rifle',
+                      ammo_clip: 13,
+                      ammo_clip_max: 30,
+                      ammo_reserve: 90,
+                      state: 'active'
+                    }
+                  },
+                  position: '-347.14, 1055.26, -63.78',
+                  forward: '0.43, -0.68, 0.59'
+                },
+                '76561197987726929': {
+                  name: 'mfS?[Bg]',
+                  observer_slot: 8,
+                  team: 'T',
+                  state: {
+                    health: 100,
+                    armor: 0,
+                    helmet: false,
+                    flashed: 0,
+                    burning: 0,
+                    money: 2100,
+                    round_kills: 0,
+                    round_killhs: 0,
+                    round_totaldmg: 0,
+                    equip_value: 500
+                  },
+                  match_stats: { kills: 0, assists: 0, deaths: 2, mvps: 0, score: 0 },
+                  weapons: {
+                    weapon_0: {
+                      name: 'weapon_knife_t',
+                      paintkit: 'default',
+                      type: 'Knife',
+                      state: 'holstered'
+                    },
+                    weapon_1: {
+                      name: 'weapon_glock',
+                      paintkit: 'cu_glock18_corroden',
+                      type: 'Pistol',
+                      ammo_clip: 20,
+                      ammo_clip_max: 20,
+                      ammo_reserve: 120,
+                      state: 'holstered'
+                    },
+                    weapon_2: {
+                      name: 'weapon_ak47',
+                      paintkit: 'cu_ak47_aztec',
+                      type: 'Rifle',
+                      ammo_clip: 13,
+                      ammo_clip_max: 30,
+                      ammo_reserve: 90,
+                      state: 'active'
+                    }
+                  },
+                  position: '759.99, 1002.04, 0.08',
+                  forward: '0.94, 0.34, -0.02'
+                },
+                '76561198001770187': {
+                  name: 'OverSkill ☹ANTIPOSITIVE☹',
+                  observer_slot: 9,
+                  team: 'T',
+                  state: {
+                    health: 100,
+                    armor: 0,
+                    helmet: false,
+                    flashed: 0,
+                    burning: 0,
+                    money: 2000,
+                    round_kills: 0,
+                    round_killhs: 0,
+                    round_totaldmg: 0,
+                    equip_value: 800
+                  },
+                  match_stats: { kills: 0, assists: 0, deaths: 2, mvps: 0, score: 0 },
+                  weapons: 
+                  {
+                    weapon_0: {
+                      name: 'weapon_knife_t',
+                      paintkit: 'default',
+                      type: 'Knife',
+                      state: 'holstered'
+                    },
+                    weapon_1: {
+                      name: 'weapon_glock',
+                      paintkit: 'cu_glock18_corroden',
+                      type: 'Pistol',
+                      ammo_clip: 20,
+                      ammo_clip_max: 20,
+                      ammo_reserve: 120,
+                      state: 'holstered'
+                    },
+                    weapon_2: {
+                      name: 'weapon_ak47',
+                      paintkit: 'cu_ak47_aztec',
+                      type: 'Rifle',
+                      ammo_clip: 13,
+                      ammo_clip_max: 30,
+                      ammo_reserve: 90,
+                      state: 'active'
+                    }
+                  },
+                  position: '644.55, 303.09, 0.60',
+                  forward: '0.01, 1.00, -0.00'
+                },
+                '76561198115631879': {
+                  name: 'Leo',
+                  observer_slot: 0,
+                  team: 'T',
+                  state: {
+                    health: 100,
+                    armor: 100,
+                    helmet: true,
+                    defusekit: true,
+                    flashed: 0,
+                    burning: 0,
+                    money: 2450,
+                    round_kills: 0,
+                    round_killhs: 0,
+                    round_totaldmg: 0,
+                    equip_value: 4250
+                  },
+                  match_stats: { kills: 1, assists: 0, deaths: 2, mvps: 0, score: 2 },
+                  weapons: {
+                    weapon_0: {
+                      name: 'weapon_knife_t',
+                      paintkit: 'default',
+                      type: 'Knife',
+                      state: 'holstered'
+                    },
+                    weapon_1: {
+                      name: 'weapon_glock',
+                      paintkit: 'cu_glock18_corroden',
+                      type: 'Pistol',
+                      ammo_clip: 20,
+                      ammo_clip_max: 20,
+                      ammo_reserve: 120,
+                      state: 'holstered'
+                    },
+                    weapon_2: {
+                      name: 'weapon_ak47',
+                      paintkit: 'cu_ak47_aztec',
+                      type: 'Rifle',
+                      ammo_clip: 13,
+                      ammo_clip_max: 30,
+                      ammo_reserve: 90,
+                      state: 'active'
+                    }
+                  },
+                  position: '735.37, 424.46, 3.54',
+                  forward: '-0.40, 0.91, -0.10'
+                },
+                '76561198034985762': {
+                  clan: 'STAPLERMODU$',
+                  name: 'L i Q u i D',
+                  observer_slot: 5,
+                  team: 'CT',
+                  state: {
+                    health: 100,
+                    armor: 100,
+                    helmet: true,
+                    defusekit: true,
+                    flashed: 0,
+                    burning: 0,
+                    money: 2450,
+                    round_kills: 0,
+                    round_killhs: 0,
+                    round_totaldmg: 0,
+                    equip_value: 4250
+                  },
+                  match_stats: { kills: 2, assists: 1, deaths: 0, mvps: 0, score: 5 },
+                  weapons: {
+                    weapon_0: {
+                      name: 'weapon_knife_t',
+                      paintkit: 'default',
+                      type: 'Knife',
+                      state: 'holstered'
+                    },
+                    weapon_1: {
+                      name: 'weapon_glock',
+                      paintkit: 'cu_glock18_corroden',
+                      type: 'Pistol',
+                      ammo_clip: 20,
+                      ammo_clip_max: 20,
+                      ammo_reserve: 120,
+                      state: 'holstered'
+                    },
+                    weapon_2: {
+                      name: 'weapon_ak47',
+                      paintkit: 'cu_ak47_aztec',
+                      type: 'Rifle',
+                      ammo_clip: 13,
+                      ammo_clip_max: 30,
+                      ammo_reserve: 90,
+                      state: 'active'
+                    }
+                  },
+                  position: '-1546.63, 2764.75, 121.84',
+                  forward: '-0.34, -0.92, -0.20'
+                }
+              },
+              phase_countdowns: { phase: 'timeout_ct', phase_ends_in: '45.7' },
+              grenades: {},
+              bomb: {
+                state: 'not',
+                position: '1216.00, -307.00, -165.62',
+                player: 76561198080858380
+              }}
+        }  
