@@ -179,6 +179,11 @@ io.on("connection", (socket) => {
     io.emit("getTeams", teams);
     console.log("Teams set");
   });
+
+  socket.on("setSeriesInfo", (seriesInfo) => {
+    io.emit("getSeriesInfo", seriesInfo);
+    console.log("Series Info Set");
+  });
 });
 
 server.listen(3001, () => {
