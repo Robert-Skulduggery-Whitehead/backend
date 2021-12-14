@@ -2,9 +2,11 @@ var express = require("express");
 var app = express();
 const cors = require("cors");
 var CSGOGSI = require("./gamestate");
+var ReactServer = require("./react");
 var http = require("http");
 var socketio = require("socket.io");
 const sqlite3 = require("sqlite3").verbose();
+const path = require("path");
 
 let db = new sqlite3.Database("./db/hud.db", (err) => {
   if (err) {
@@ -54,6 +56,8 @@ const io = socketio(server, {
 let gsi = new CSGOGSI({
   port: 1349,
 });
+
+//let react = new ReactServer();
 
 let playerSQL = "SELECT playerName, playerImage FROM players WHERE steamID = ?";
 
@@ -183,6 +187,42 @@ io.on("connection", (socket) => {
   socket.on("setSeriesInfo", (seriesInfo) => {
     io.emit("getSeriesInfo", seriesInfo);
     console.log("Series Info Set");
+  });
+
+  socket.on("updatePlayer", (data) => {
+    console.log(data[0]);
+    playerExistsSQL =
+      "SELECT playerName FROM players WHERE steamID = '" + data[0] + "'";
+    playerAddSQL =
+      "INSERT INTO players (steamID, playerName, playerImage) VALUES ('" +
+      data[0] +
+      "', '" +
+      data[1] +
+      "', '')";
+    playerUpdateSQL =
+      "UPDATE players SET playerName = '" +
+      data[1] +
+      "' WHERE steamID = '" +
+      data[0] +
+      "'";
+    db.get(playerExistsSQL, [], (err, row) => {
+      if (err) {
+        return console.error(err.message);
+      }
+      if (row === undefined) {
+        db.run(playerAddSQL, (err) => {
+          if (err) {
+            return console.error(err.message);
+          }
+        });
+      } else {
+        db.run(playerUpdateSQL, (err) => {
+          if (err) {
+            return console.error(err.message);
+          }
+        });
+      }
+    });
   });
 });
 
