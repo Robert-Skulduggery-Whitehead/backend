@@ -179,6 +179,11 @@ io.on("connection", (socket) => {
     console.log("Teams Swapped");
   });
 
+  socket.on("toggleHUD", () => {
+    io.emit("getToggleHUD");
+    console.log("HUD Toggled");
+  });
+
   socket.on("setTeams", (teams) => {
     io.emit("getTeams", teams);
     console.log("Teams set");
