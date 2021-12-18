@@ -9,6 +9,17 @@ class ReactServer {
     this.app.use(express.static(path.join(__dirname, "build")));
 
     this.app.get("/", function (req, res) {
+      console.log(__dirname);
+      res.sendFile(path.join(__dirname, "build", "index.html"));
+    });
+
+    this.app.get("/players", function (req, res) {
+      console.log(__dirname);
+      res.sendFile(path.join(__dirname, "build", "index.html"));
+    });
+
+    this.app.get("/hud", function (req, res) {
+      console.log(__dirname);
       res.sendFile(path.join(__dirname, "build", "index.html"));
     });
 

@@ -57,7 +57,7 @@ let gsi = new CSGOGSI({
   port: 1349,
 });
 
-//let react = new ReactServer();
+let react = new ReactServer();
 
 let playerSQL = "SELECT playerName, playerImage FROM players WHERE steamID = ?";
 
